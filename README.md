@@ -10,9 +10,6 @@ Follow these steps to set up and run the project.
 
 Clone the repository or download the ZIP file from GitHub.
 
-git clone https://github.com/YOUR_USERNAME/laravel-tailwind-starter.git
-cd laravel-tailwind-starter
-
 2️⃣ Install Dependencies
 
 Run the following commands to install PHP and Node dependencies:
