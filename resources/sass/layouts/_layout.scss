@@ -1,0 +1,25 @@
+@layer layouts {
+    .container {
+        @apply max-w-screen-xl mx-auto px-4 bg-red-200;
+    }
+
+    .section {
+        @apply py-12;
+    }
+
+    .header {
+        @apply flex justify-between items-center p-4 bg-darkBlue text-white;
+    }
+
+    .footer {
+        @apply text-center p-4 bg-gray-800 text-white;
+    }
+
+    .sidebar {
+        @apply w-64 bg-gray-200 min-h-screen p-4;
+    }
+
+    .main-content {
+        @apply flex-1 p-6;
+    }
+}

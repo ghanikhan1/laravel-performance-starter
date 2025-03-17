@@ -1,0 +1,14 @@
+@layer components {
+    .btn {
+        @apply p-3 px-6 pt-2;
+        @apply text-white;
+        @apply rounded-full;
+    }
+
+    .btn-primary {
+        @apply bg-brightRed hover:bg-brightRedLight;
+    }
+    .btn-secondary {
+        @apply bg-darkBlue hover:bg-veryDarkBlue;
+    }
+}

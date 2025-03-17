@@ -1,0 +1,25 @@
+@layer components {
+    .form-container {
+        @apply bg-white p-6 rounded-lg shadow-md max-w-lg mx-auto;
+    }
+
+    .form-group {
+        @apply mb-4;
+    }
+
+    .form-label {
+        @apply block text-gray-700 font-bold mb-2;
+    }
+
+    .form-input {
+        @apply w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-brightRed;
+    }
+
+    .form-textarea {
+        @apply w-full px-4 py-2 border rounded-md h-32 focus:outline-none focus:ring-2 focus:ring-brightRed;
+    }
+
+    .form-button {
+        @apply bg-brightRed text-white px-6 py-2 rounded-md hover:bg-brightRedLight transition;
+    }
+}

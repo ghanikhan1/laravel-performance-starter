@@ -1,0 +1,18 @@
+@layer components {
+    .card {
+        @apply bg-white shadow-lg rounded-lg overflow-hidden;
+        @apply transition-all duration-300 ease-in-out;
+    }
+
+    .card-header {
+        @apply bg-brightRed text-white p-4 font-bold text-lg;
+    }
+
+    .card-body {
+        @apply p-4 text-gray-700;
+    }
+
+    .card-footer {
+        @apply bg-gray-100 p-3 text-right text-darkBlue;
+    }
+}

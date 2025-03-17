@@ -1,0 +1,10 @@
+@layer base {
+
+    .bg-primary {
+        @apply bg-brightRed text-white;
+    }
+
+    .bg-secondary {
+        @apply bg-darkBlue text-white;
+    }
+}
